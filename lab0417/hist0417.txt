@@ -1,0 +1,1000 @@
+ 1038  ./.out <<< "202020701" >1 out.txt 2> err.txt
+ 1039  ls -al
+ 1040  rm err.txt
+ 1041  ./a.out <<< "202020701" 1> out.txt 2> err.txt
+ 1042  ls -al
+ 1043  ./a.out <<< "202020701" &> std.txt
+ 1044  ls -al
+ 1045  history 50 > hist.txt
+ 1046  cd ..
+ 1047  mkdir Q4
+ 1048  cd Q4
+ 1049  cd ..
+ 1050  cd Q3
+ 1051  cat out.txt
+ 1052  cat std.txt
+ 1053  cat err.txt
+ 1054  cd ..
+ 1055  cd Q4
+ 1056  vi q4.sh
+ 1057  source q4.sh <<< 100 > result.txt
+ 1058  vi q4.sh
+ 1059  cp ../Q3/a.out .
+ 1060  source q4.sh <<< 100 > result.txt
+ 1061  source q4.sh <<< 0 >> result.txt
+ 1062  history 50 > hist.txt
+ 1063  cd ..
+ 1064  mkdir Q5
+ 1065  cd Q5
+ 1066  cat q4.sh
+ 1067  cd ..
+ 1068  cd Q4
+ 1069  cat q4.sh
+ 1070  cd ..
+ 1071  cd Q5
+ 1072  vi q5.sh
+ 1073  source q5.sh > output.txt
+ 1074  vi q5.sh
+ 1075  source q5.sh > output.txt
+ 1076  vi q5.sh
+ 1077  source q5.sh > output.txt
+ 1078  vi q5.sh
+ 1079  cd ..
+ 1080  cd Q6
+ 1081  mkdir Q6
+ 1082  cd Q6
+ 1083  git init
+ 1084  vi profile.md
+ 1085  git add profile.md
+ 1086  git commit -a -m "high"
+ 1087  cd ..
+ 1088  cd Q5
+ 1089  vi q5.sh
+ 1090  source q5.sh > output.txt
+ 1091  ls output.txt
+ 1092  cat output.txt
+ 1093  cd ..
+ 1094  cd Q6
+ 1095  ls
+ 1096  cat profile.md
+ 1097  git status
+ 1098  add profile.md
+ 1099  git add profile.md
+ 1100  git commit -a -m "high"
+ 1101  git log
+ 1102  cd ..
+ 1103  mkdir Q7
+ 1104  cd Q7
+ 1105  cd ..
+ 1106  cd Q6
+ 1107  git branch br_1
+ 1108  git checkout br_1
+ 1109  vi profile.md
+ 1110  git add profile.md
+ 1111  git commit -a -m "middle"
+ 1112  vi profile.md
+ 1113  git reset profile.md
+ 1114  git status
+ 1115  vi profile.md
+ 1116  git add profile.md
+ 1117  git commit -a -m "middle"
+ 1118  vi profile.md
+ 1119  git add profile.md
+ 1120  git commit -a -m "elementary"
+ 1121  git branch
+ 1122  git checkout master
+ 1123  vi profile.md
+ 1124  git commit -a -m "univ"
+ 1125  git merge br_1
+ 1126  vi profile.md
+ 1127  git merge br_1
+ 1128  git add profile.md
+ 1129  git commit -a -m "fixed"
+ 1130  git merge br_1
+ 1131  cat profile.md
+ 1132  git branch
+ 1133  git branch rm br_1
+ 1134  git log
+ 1135  git reset --hard a2d5b483921302fc791effab8637bed10af226da
+ 1136  cat profile.md
+ 1137  history 50 > hist.txt
+ 1138  cd ..
+ 1139  vi h
+ 1140  ls -al
+ 1141  cd
+ 1142  ls
+ 1143  cd foss
+ 1144  cd
+ 1145  cd ssh-foss
+ 1146  ls
+ 1147  cd foss-test
+ 1148  ls
+ 1149  cat README.md
+ 1150  git brandh
+ 1151  git branch
+ 1152  git add README.md
+ 1153  git commit README.md 
+ 1154  git push
+ 1155  git checkout origin
+ 1156  git pull origin master
+ 1157  git status
+ 1158  git commit -m "hello"
+ 1159  git add README.md
+ 1160  git commit -a -m "edited final"
+ 1161  git push origin main
+ 1162  git add README.md
+ 1163  git status
+ 1164  git add README.md
+ 1165  git status
+ 1166  git push origin master
+ 1167  git pull
+ 1168  git add .
+ 1169  git commit -m "clean push"
+ 1170  git push
+ 1171  git remote remove origin
+ 1172  git remote add origin https://git.ajou.ac.kr/Seongeun/foss-lab.git
+ 1173  git add README.md
+ 1174  git commit -a -m "finally edited"
+ 1175  git push
+ 1176  git branch
+ 1177  git checkout main
+ 1178  git add README.md 
+ 1179  git commit -a -m "hello"
+ 1180  git status
+ 1181  git push --set-upstream origin master
+ 1182  git pull origin
+ 1183  git status
+ 1184  git add README.md 
+ 1185  git commit README.md
+ 1186  git pull
+ 1187  git merge
+ 1188  git branch
+ 1189  git branch checkout
+ 1190  git rm checkout
+ 1191  cat README.md 
+ 1192  ls
+ 1193  who
+ 1194  passwd
+ 1195  clear
+ 1196  passwd
+ 1197  exit
+ 1198  ls
+ 1199  who
+ 1200  who | sort
+ 1201  ls -al
+ 1202  who | sort
+ 1203  exit
+ 1204  who | sort
+ 1205  tty
+ 1206  pwd
+ 1207  ls -al
+ 1208  ls -l
+ 1209  man ls
+ 1210  mkdir lab0313
+ 1211  ls
+ 1212  cd lab0313/
+ 1213  ls -al
+ 1214  echo HIHI
+ 1215  vi hello.c
+ 1216  ls
+ 1217  vi hello.c
+ 1218  ls
+ 1219  cd lab0313/
+ 1220  vi hello.c 
+ 1221  ls- al
+ 1222  ls -al
+ 1223  cc hello.c 
+ 1224  ls -al
+ 1225  vi hello.c 
+ 1226  a.out
+ 1227  ./a.out 
+ 1228  cd /
+ 1229  ls
+ 1230  ls ~
+ 1231  cd ~
+ 1232  ls
+ 1233  cd /
+ 1234  cd dev
+ 1235  ls
+ 1236  tty
+ 1237  ls -l std*
+ 1238  cd ..
+ 1239  cd dev/
+ 1240  cd..
+ 1241  cd ..
+ 1242  cd proc/
+ 1243  ls -al self
+ 1244  cd self
+ 1245  ls -al
+ 1246  cd fd
+ 1247  ls -al
+ 1248  cd /usr/include/
+ 1249  ls
+ 1250  vi stdio.h
+ 1251  cd
+ 1252  cd lab0313/
+ 1253  cp hello.c std.c
+ 1254  ls
+ 1255  vi std.c 
+ 1256  cc std.c
+ 1257  ./a.out 
+ 1258  exit
+ 1259  ls
+ 1260  mkdir lab0315
+ 1261  ls
+ 1262  date
+ 1263  time
+ 1264  who | sort
+ 1265  who | wc -l
+ 1266  whoami
+ 1267  whoami -l
+ 1268  man whoami
+ 1269  date
+ 1270  ls -lr
+ 1271  ls -lR
+ 1272  rm lab0315
+ 1273  rmdir lab0315
+ 1274  ls
+ 1275  cpdir lab0313 lab0315
+ 1276  man cp
+ 1277  ls
+ 1278  cp -r lab0313 lab0315
+ 1279  ls
+ 1280  ls -lR
+ 1281  rm -r lab0315
+ 1282  ls
+ 1283  cp -a lab0313 lab0315
+ 1284  ls -lR
+ 1285  man date
+ 1286  which ls
+ 1287  which cd
+ 1288  which vi
+ 1289  help cd
+ 1290  echo -n Hello
+ 1291  ls
+ 1292  du
+ 1293  du -h
+ 1294  cd lab0315
+ 1295  cd
+ 1296  cd ~oss000
+ 1297  pwd
+ 1298  cd chulseog0515/
+ 1299  touch 201923669
+ 1300  ls -al
+ 1301  touch 201923669
+ 1302  ls -al
+ 1303  ls -l | wc -l
+ 1304  pushd /tmp
+ 1305  pushd /etc
+ 1306  vi passwd
+ 1307  vi group
+ 1308  man passwd
+ 1309  man 5 passwd
+ 1310  man 3 printf
+ 1311  printf "%6d %6.3f\n" 400 23.7
+ 1312  exit
+ 1313  ps
+ 1314  ps -l
+ 1315  sleep 3
+ 1316  sleep 5 ; echo 5sec
+ 1317  [ sleep 3500 ; echo finish ]
+ 1318  ( sleep 3500 ; echo finish ) &
+ 1319  ps
+ 1320  jobs
+ 1321  sensors
+ 1322  free
+ 1323  w
+ 1324  mkdir lab0322
+ 1325  cd lab0322
+ 1326  cd ..
+ 1327  ls
+ 1328  cd lab0322
+ 1329  cp ../lab0315/* .
+ 1330  ls
+ 1331  cd ~oss000/lab0322/
+ 1332  pwd
+ 1333  ls -al
+ 1334  ./a.out 
+ 1335  cd
+ 1336  rmdir lab0322
+ 1337  rmdir -r lab0322
+ 1338  ls
+ 1339  cd lab0322
+ 1340  ls
+ 1341  rm a.out 
+ 1342  rm hello.c 
+ 1343  rm std.c 
+ 1344  cp ~oss000/lab0320/* .
+ 1345  ls
+ 1346  cd ~oss000/lab0320/
+ 1347  cd
+ 1348  ls -a
+ 1349  ls -la .
+ 1350  ls -lad .
+ 1351  chmod -R go-rwx .
+ 1352  ls -lad .
+ 1353  ls -al
+ 1354  cd ~oss000
+ 1355  cd test3/
+ 1356  ls -al
+ 1357  echo 201923669 >> chul
+ 1358  ls -la 'which passwd'
+ 1359  ls -la `which passwd`
+ 1360  cd
+ 1361  cd lab0322
+ 1362  ls -al
+ 1363  chmod 7777 a.out
+ 1364  ls -al
+ 1365  cd ~oss000/lab0322
+ 1366  ls -al
+ 1367  a.out > 201923669
+ 1368  ./a.out > 201923669
+ 1369  ./a.out
+ 1370  ./a.out > 201923669
+ 1371  exit
+ 1372  mkdir lab0327
+ 1373  cd lab0327
+ 1374  cd ..
+ 1375  mkdir lab0328 ; cd ..
+ 1376  cd
+ 1377  rmdir lab0328
+ 1378  ls
+ 1379  cd lab0327
+ 1380  cp ../lab0322/a.out .
+ 1381  ./a.out
+ 1382  cp ../lab0322/std.c .
+ 1383  cat std.c 
+ 1384  echo $?
+ 1385  echo 0
+ 1386  echo $?
+ 1387  echo 100
+ 1388  echo $?
+ 1389  ls a.out 
+ 1390  ls a.out b.out
+ 1391  ls a.out b.out 1> stdout.txt
+ 1392  ls -al
+ 1393  cat stdout.txt 
+ 1394  ls a.out b.out 2> stderr.txt
+ 1395  ls -al
+ 1396  cat stderr.txt 
+ 1397  vi stdout.txt 
+ 1398  ./a.out 1> a.out.result
+ 1399  ls -al
+ 1400  rm stderr.txt 
+ 1401  ls -al
+ 1402  cat a.out.result 
+ 1403  vi std.c
+ 1404  cc std.c
+ 1405  ls -al
+ 1406  ./a.out 1> a.out.result
+ 1407  ls -al
+ 1408  ./a.out 1> stdout.txt 2> stderr.txt
+ 1409  ls -al
+ 1410  cat stderr.txt 
+ 1411  cat stdout.txt 
+ 1412  cat std.c std.c std.c
+ 1413  cat std.c std.c std.c 1> all3.c
+ 1414  ls -al
+ 1415  cat a.out > b.out
+ 1416  ./b.out
+ 1417  chmod 700 b.out
+ 1418  ./b.out
+ 1419  ls -al
+ 1420  vi std.c
+ 1421  ./b.out 
+ 1422  rm a.out.result 
+ 1423  ls -l *.out
+ 1424  ls a.out b.out c.out 2> err.txt
+ 1425  ls
+ 1426  cat err.txt 
+ 1427  ls a.out b.out c.out >& all.txt
+ 1428  cat out.txt 
+ 1429  echo 9999 > input.txt
+ 1430  echo -n 8899 > in2.txt
+ 1431  cat in2.txt 
+ 1432  ./a.out 0< input.txt
+ 1433  ./a.out < in2.txt 
+ 1434  ./a.out &
+ 1435  ps
+ 1436  fg 
+ 1437  jobs
+ 1438  ./a.out < in3.txt > out.txt 2> err.txt 
+ 1439  cat err.txt 
+ 1440  exit
+ 1441  cp -r lab0327 lab0329
+ 1442  ls -al
+ 1443  ls -i
+ 1444  ls -l /
+ 1445  df | more
+ 1446  cd lab0329
+ 1447  ln a.out c.out
+ 1448  ls -al
+ 1449  ls -i a.out
+ 1450  ls -i c.out
+ 1451  touch c.out
+ 1452  date
+ 1453  ls -l a.out
+ 1454  ls
+ 1455  vi std.c
+ 1456  ln std.c link.c
+ 1457  vi link.c 
+ 1458  cat std.c
+ 1459  ls -al
+ 1460  rm err.txt 
+ 1461  rm in2.txt 
+ 1462  rm out.txt 
+ 1463  rm stderr.txt 
+ 1464  rm stdout.txt 
+ 1465  ls -al
+ 1466  rm input.txt 
+ 1467  ln c.out d.out
+ 1468  ls -al
+ 1469  chmod 644 std.c 
+ 1470  ls -al
+ 1471  chmod 655 std.c 
+ 1472  ls -al
+ 1473  rm a.out 
+ 1474  ls -al
+ 1475  ln -s b.out sl.out
+ 1476  ls -al
+ 1477  ln -s std.c slink_std.c
+ 1478  ls -al
+ 1479  vi slink_std.c 
+ 1480  cat std.c 
+ 1481  ln -s a.out z.out
+ 1482  ls -al
+ 1483  vi z.out 
+ 1484  ln -s b.out a.out
+ 1485  ls -al
+ 1486  vi z.out 
+ 1487  cd /usr/bin/
+ 1488  ls
+ 1489  ls -l cc
+ 1490  cd /etc/alternative
+ 1491  cd /etc/alternatives
+ 1492  cd /usr/bin
+ 1493  ls -l gcc
+ 1494  ls -l gcc-9
+ 1495  ls -l x86_64-linux-gnu-gcc-9
+ 1496  cd
+ 1497  cd lab0329
+ 1498  vi std.c 
+ 1499  ls -al
+ 1500  cc std.c 
+ 1501  ls -al
+ 1502  rm a.out 
+ 1503  ln -s b.out a.out
+ 1504  vi std.c 
+ 1505  cc std.c
+ 1506  a.out
+ 1507  a.out | b.out
+ 1508  wc
+ 1509  ./b.out | wc
+ 1510  ./b.out | wc -l
+ 1511  ls
+ 1512  ls | wc -l
+ 1513  cat > file
+ 1514  cat file 
+ 1515  cat < file
+ 1516  cat < file > file2
+ 1517  cat file2
+ 1518  cat file2 | wc -l
+ 1519  cat > list
+ 1520  sort list
+ 1521  cat list | sort
+ 1522  who | sort |wc
+ 1523  who | sort | wc -l
+ 1524  who | sort | wc
+ 1525  exit
+ 1526  mkdir lab0405
+ 1527  cd lab0405
+ 1528  vi hello.sh
+ 1529  source hello.sh
+ 1530  ls -al
+ 1531  bash hello.sh
+ 1532  ps
+ 1533  ps -l
+ 1534  vi hello.sh
+ 1535  bash hello.sh
+ 1536  vi hello.sh
+ 1537  bash hello.sh
+ 1538  source hello.sh
+ 1539  A=100
+ 1540  echo A
+ 1541  echo $A
+ 1542  vi hello.sh 
+ 1543  bash hello.sh 
+ 1544  echo $A
+ 1545  source hello.sh 
+ 1546  echo $A
+ 1547  cd lab0405
+ 1548  ./hello.sh
+ 1549  ls -l
+ 1550  chmod u+x hello.sh 
+ 1551  ls -l
+ 1552  ./hello.sh 
+ 1553  echo $A
+ 1554  ls hello.sh hello1.sh hello2.sh | wc -l
+ 1555  ls hello.sh hello1.sh hello2.sh |& wc -l
+ 1556  A=999
+ 1557  echo "A=$A"
+ 1558  echo 'A=$A'
+ 1559  which cc
+ 1560  `which cc`
+ 1561  echo `which cc`
+ 1562  CCCOMAND=`which cc`
+ 1563  echo CCOMAND
+ 1564  echo CCCOMAND
+ 1565  echo $CCCOMAND
+ 1566  ps
+ 1567  ( ps )
+ 1568  ( echo aaa; ps )
+ 1569  ps
+ 1570  { echo aaa ; ps }; ;
+ 1571  { echo aaa ; ps ;}
+ 1572  exit
+ 1573  mkdir lab0410 ; cd lab0410
+ 1574  ls -al
+ 1575  A=999
+ 1576  echo A
+ 1577  echo $A
+ 1578  B="123
+ 1579  456
+ 1580  789
+ 1581  "
+ 1582  echo $B
+ 1583  # Comment
+ 1584  ls -l | wc ; # count files
+ 1585  history
+ 1586  NAME="Moda"
+ 1587  echo $NAME
+ 1588  echo ${NAME%da}
+ 1589  ls -al
+ 1590  touch file1 file2 a aaa aa abbb
+ 1591  ls -al
+ 1592  echo *
+ 1593  echo a*
+ 1594  echo *aa
+ 1595  echo *b
+ 1596  echo a*b
+ 1597  echo f*
+ 1598  echo {1..100}
+ 1599  echo test{1..100}
+ 1600  ls -al
+ 1601  echo test{0001..100}
+ 1602  echo test{0001..100}.c
+ 1603  mkdir mid
+ 1604  cd mid/
+ 1605  touch test{0000..100}.c
+ 1606  ls
+ 1607  cd ..
+ 1608  touch ab
+ 1609  echo a*b
+ 1610  ls
+ 1611  echo a???
+ 1612  echo a?*b
+ 1613  cd mid
+ 1614  for i in test009*; do echo $i ${i%.c}.java; done
+ 1615  ls
+ 1616  for i in test009*; done echo $i ${i%.c}.java; done
+ 1617  echo $(( 200*120 + 13 ))
+ 1618  A=$(echo a)
+ 1619  echo &a
+ 1620  fg
+ 1621  job
+ 1622  jobs
+ 1623  ps
+ 1624  echo $a
+ 1625  A=$(echo a)
+ 1626  echo $a
+ 1627  echo $A
+ 1628  echo $?
+ 1629  ls zeze
+ 1630  echo $?
+ 1631  echo $AAA
+ 1632  A='echo -e "aaa\nbbb"'
+ 1633  echo $A
+ 1634  echo $$
+ 1635  ps
+ 1636  cd ..
+ 1637  cp ../lab0405/hello.sh 
+ 1638  ls
+ 1639  cd ..
+ 1640  ls
+ 1641  cd lab0405
+ 1642  ls
+ 1643  cd ..
+ 1644  ls lab0410
+ 1645  cp -r ../lab0405/hello.sh 
+ 1646  cp ../lab0405/hello.sh 
+ 1647  cd lab0415
+ 1648  cd lab0410
+ 1649  cp ../lab0405/hello.sh 
+ 1650  cp -r ../lab0405/hello.sh 
+ 1651  cp ../lab0405/hello.sh hello.sh
+ 1652  vi hello.sh 
+ 1653  source hello.sh 100 200
+ 1654  ls -al
+ 1655  ./hello.sh 100 200 300
+ 1656  ./hello.sh "100 200 300"
+ 1657  vi hello.sh 
+ 1658  ./hello.sh "100 200 300"
+ 1659  ./hello.sh 100 200 300
+ 1660  mkdir ~/bin
+ 1661  cp hello.sh ~/bin/ls
+ 1662  ls
+ 1663  which ls
+ 1664  `which ls`
+ 1665  exit
+ 1666  HOME=./lab0410
+ 1667  cd
+ 1668  A=100
+ 1669  ( echo $A; A=300; echo $A )
+ 1670  echo $A
+ 1671  exit
+ 1672  cd
+ 1673  ls
+ 1674  rm ls
+ 1675  mkdir lab0412
+ 1676  which ls
+ 1677  rm bin/ls
+ 1678  ls
+ 1679  cd lab0412
+ 1680  tocuh a aa aaa aabb ab aabbb bb bbbb bbb
+ 1681  touch a aa aaa aabb ab aabbb bb bbbb bbb
+ 1682  ls
+ 1683  exit
+ 1684  ls
+ 1685  cd lab0412
+ 1686  echo [ab]*
+ 1687  echo [ab][ab]
+ 1688  ls
+ 1689  echo *(bb|aa)
+ 1690  echo (bb|aa)
+ 1691  echo +(bb|aa)
+ 1692  echo !(bb|aa)
+ 1693  echo *!(bb|aa)
+ 1694  echo [!a]*
+ 1695  touch bbaa
+ 1696  echo ?(aa|bb)
+ 1697  echo ?(aa|bb)*
+ 1698  touch A Aa AAbbbb AAbb
+ 1699  echo [A-Z]*
+ 1700  touch _a __aa
+ 1701  echo [A-Z]*
+ 1702  echo [A-z]*
+ 1703  echo [a-z]*
+ 1704  echo [A-Za-z]*
+ 1705  shopt -s nullglob
+ 1706  echo QQ*
+ 1707  shopt
+ 1708  shopt -u nullglob
+ 1709  shopt -s failglob
+ 1710  echo QQ*
+ 1711  touch .aa ..aaaa .aabb
+ 1712  echo a*
+ 1713  echo ?a*
+ 1714  shopt -s globstar
+ 1715  cd
+ 1716  echo **/*.c
+ 1717  echo **/*.java
+ 1718  vi .profile 
+ 1719  tr [:lower:][:upper:]
+ 1720  tr[:lower:][:upper:]
+ 1721  echo "Welcome" | tr[:lower:][:upper:]
+ 1722  ls
+ 1723  cd lab0412
+ 1724  echo [ab]*
+ 1725  echo [ab][ab]
+ 1726  ls
+ 1727  echo *(bb|aa)
+ 1728  echo (bb|aa)
+ 1729  echo +(bb|aa)
+ 1730  echo !(bb|aa)
+ 1731  echo *!(bb|aa)
+ 1732  echo [!a]*
+ 1733  touch bbaa
+ 1734  echo ?(aa|bb)
+ 1735  echo ?(aa|bb)*
+ 1736  touch A Aa AAbbbb AAbb
+ 1737  echo [A-Z]*
+ 1738  touch _a __aa
+ 1739  echo [A-Z]*
+ 1740  echo [A-z]*
+ 1741  echo [a-z]*
+ 1742  echo [A-Za-z]*
+ 1743  shopt -s nullglob
+ 1744  echo QQ*
+ 1745  shopt
+ 1746  shopt -u nullglob
+ 1747  shopt -s failglob
+ 1748  echo QQ*
+ 1749  touch .aa ..aaaa .aabb
+ 1750  echo a*
+ 1751  echo ?a*
+ 1752  shopt -s globstar
+ 1753  cd
+ 1754  echo **/*.c
+ 1755  echo **/*.java
+ 1756  vi .profile 
+ 1757  tr [:lower:][:upper:]
+ 1758  tr[:lower:][:upper:]
+ 1759  echo "Welcome" | tr[:lower:][:upper:]
+ 1760  echo "Welcome" | tr [:lower:][:upper:]
+ 1761  ls
+ 1762  cd lab0412
+ 1763  echo [ab]*
+ 1764  echo [ab][ab]
+ 1765  ls
+ 1766  echo *(bb|aa)
+ 1767  echo (bb|aa)
+ 1768  echo +(bb|aa)
+ 1769  echo !(bb|aa)
+ 1770  echo *!(bb|aa)
+ 1771  echo [!a]*
+ 1772  touch bbaa
+ 1773  echo ?(aa|bb)
+ 1774  echo ?(aa|bb)*
+ 1775  touch A Aa AAbbbb AAbb
+ 1776  echo [A-Z]*
+ 1777  touch _a __aa
+ 1778  echo [A-Z]*
+ 1779  echo [A-z]*
+ 1780  echo [a-z]*
+ 1781  echo [A-Za-z]*
+ 1782  shopt -s nullglob
+ 1783  echo QQ*
+ 1784  shopt
+ 1785  shopt -u nullglob
+ 1786  shopt -s failglob
+ 1787  echo QQ*
+ 1788  touch .aa ..aaaa .aabb
+ 1789  echo a*
+ 1790  echo ?a*
+ 1791  shopt -s globstar
+ 1792  cd
+ 1793  echo **/*.c
+ 1794  echo **/*.java
+ 1795  vi .profile 
+ 1796  tr [:lower:][:upper:]
+ 1797  tr[:lower:][:upper:]
+ 1798  echo "Welcome" | tr[:lower:][:upper:]
+ 1799  echo "Welcome" | tr [:lower:][:upper:]
+ 1800  echo "Welcome" | tr [:lower:] [:upper:]
+ 1801  ls
+ 1802  cd lab0412
+ 1803  echo [ab]*
+ 1804  echo [ab][ab]
+ 1805  ls
+ 1806  echo *(bb|aa)
+ 1807  echo (bb|aa)
+ 1808  echo +(bb|aa)
+ 1809  echo !(bb|aa)
+ 1810  echo *!(bb|aa)
+ 1811  echo [!a]*
+ 1812  touch bbaa
+ 1813  echo ?(aa|bb)
+ 1814  echo ?(aa|bb)*
+ 1815  touch A Aa AAbbbb AAbb
+ 1816  echo [A-Z]*
+ 1817  touch _a __aa
+ 1818  echo [A-Z]*
+ 1819  echo [A-z]*
+ 1820  echo [a-z]*
+ 1821  echo [A-Za-z]*
+ 1822  shopt -s nullglob
+ 1823  echo QQ*
+ 1824  shopt
+ 1825  shopt -u nullglob
+ 1826  shopt -s failglob
+ 1827  echo QQ*
+ 1828  touch .aa ..aaaa .aabb
+ 1829  echo a*
+ 1830  echo ?a*
+ 1831  shopt -s globstar
+ 1832  cd
+ 1833  echo **/*.c
+ 1834  echo **/*.java
+ 1835  vi .profile 
+ 1836  tr [:lower:][:upper:]
+ 1837  tr[:lower:][:upper:]
+ 1838  echo "Welcome" | tr[:lower:][:upper:]
+ 1839  echo "Welcome" | tr [:lower:][:upper:]
+ 1840  echo "Welcome" | tr [:lower:] [:upper:]
+ 1841  echo "Welcome" | tr [:lower:] [[:upper:]]
+ 1842  ls
+ 1843  cd lab0412
+ 1844  echo [ab]*
+ 1845  echo [ab][ab]
+ 1846  ls
+ 1847  echo *(bb|aa)
+ 1848  echo (bb|aa)
+ 1849  echo +(bb|aa)
+ 1850  echo !(bb|aa)
+ 1851  echo *!(bb|aa)
+ 1852  echo [!a]*
+ 1853  touch bbaa
+ 1854  echo ?(aa|bb)
+ 1855  echo ?(aa|bb)*
+ 1856  touch A Aa AAbbbb AAbb
+ 1857  echo [A-Z]*
+ 1858  touch _a __aa
+ 1859  echo [A-Z]*
+ 1860  echo [A-z]*
+ 1861  echo [a-z]*
+ 1862  echo [A-Za-z]*
+ 1863  shopt -s nullglob
+ 1864  echo QQ*
+ 1865  shopt
+ 1866  shopt -u nullglob
+ 1867  shopt -s failglob
+ 1868  echo QQ*
+ 1869  touch .aa ..aaaa .aabb
+ 1870  echo a*
+ 1871  echo ?a*
+ 1872  shopt -s globstar
+ 1873  cd
+ 1874  echo **/*.c
+ 1875  echo **/*.java
+ 1876  vi .profile 
+ 1877  tr [:lower:][:upper:]
+ 1878  tr[:lower:][:upper:]
+ 1879  echo "Welcome" | tr[:lower:][:upper:]
+ 1880  echo "Welcome" | tr [:lower:][:upper:]
+ 1881  echo "Welcome" | tr [:lower:] [:upper:]
+ 1882  echo "Welcome" | tr [:lower:] [[:upper:]]
+ 1883  echo "Welcome" | tr [[:lower:]] [:upper:]
+ 1884  ls
+ 1885  cd lab0412
+ 1886  echo [ab]*
+ 1887  echo [ab][ab]
+ 1888  ls
+ 1889  echo *(bb|aa)
+ 1890  echo (bb|aa)
+ 1891  echo +(bb|aa)
+ 1892  echo !(bb|aa)
+ 1893  echo *!(bb|aa)
+ 1894  echo [!a]*
+ 1895  touch bbaa
+ 1896  echo ?(aa|bb)
+ 1897  echo ?(aa|bb)*
+ 1898  touch A Aa AAbbbb AAbb
+ 1899  echo [A-Z]*
+ 1900  touch _a __aa
+ 1901  echo [A-Z]*
+ 1902  echo [A-z]*
+ 1903  echo [a-z]*
+ 1904  echo [A-Za-z]*
+ 1905  shopt -s nullglob
+ 1906  echo QQ*
+ 1907  shopt
+ 1908  shopt -u nullglob
+ 1909  shopt -s failglob
+ 1910  echo QQ*
+ 1911  touch .aa ..aaaa .aabb
+ 1912  echo a*
+ 1913  echo ?a*
+ 1914  shopt -s globstar
+ 1915  cd
+ 1916  echo **/*.c
+ 1917  echo **/*.java
+ 1918  vi .profile 
+ 1919  tr [:lower:][:upper:]
+ 1920  tr[:lower:][:upper:]
+ 1921  echo "Welcome" | tr[:lower:][:upper:]
+ 1922  echo "Welcome" | tr [:lower:][:upper:]
+ 1923  echo "Welcome" | tr [:lower:] [:upper:]
+ 1924  echo "Welcome" | tr [:lower:] [[:upper:]]
+ 1925  echo "Welcome" | tr [[:lower:]] [:upper:]
+ 1926  echo "Welcome" | tr[:lower:] [:upper:]
+ 1927  ls
+ 1928  cd lab0412
+ 1929  echo [ab]*
+ 1930  echo [ab][ab]
+ 1931  ls
+ 1932  echo *(bb|aa)
+ 1933  echo (bb|aa)
+ 1934  echo +(bb|aa)
+ 1935  echo !(bb|aa)
+ 1936  echo *!(bb|aa)
+ 1937  echo [!a]*
+ 1938  touch bbaa
+ 1939  echo ?(aa|bb)
+ 1940  echo ?(aa|bb)*
+ 1941  touch A Aa AAbbbb AAbb
+ 1942  echo [A-Z]*
+ 1943  touch _a __aa
+ 1944  echo [A-Z]*
+ 1945  echo [A-z]*
+ 1946  echo [a-z]*
+ 1947  echo [A-Za-z]*
+ 1948  shopt -s nullglob
+ 1949  echo QQ*
+ 1950  shopt
+ 1951  shopt -u nullglob
+ 1952  shopt -s failglob
+ 1953  echo QQ*
+ 1954  touch .aa ..aaaa .aabb
+ 1955  echo a*
+ 1956  echo ?a*
+ 1957  shopt -s globstar
+ 1958  cd
+ 1959  echo **/*.c
+ 1960  echo **/*.java
+ 1961  vi .profile 
+ 1962  tr [:lower:][:upper:]
+ 1963  tr[:lower:][:upper:]
+ 1964  echo "Welcome" | tr[:lower:][:upper:]
+ 1965  echo "Welcome" | tr [:lower:][:upper:]
+ 1966  echo "Welcome" | tr [:lower:] [:upper:]
+ 1967  echo "Welcome" | tr [:lower:] [[:upper:]]
+ 1968  echo "Welcome" | tr [[:lower:]] [:upper:]
+ 1969  echo "Welcome" | tr[:lower:] [:upper:]
+ 1970  echo {0..100..3}
+ 1971  FOO="0123456789ABCDEF"
+ 1972  echo ${FOO:1:5}
+ 1973  echo ${FOO:0:5}
+ 1974  echo ${FOO:-3:5}
+ 1975  echo ${FOO:(-3):5}
+ 1976  echo ${FOO%DEF}
+ 1977  echo ${FOO%ABC}
+ 1978  echo ${FOO#0123}
+ 1979  echo ${FOO/%EF/.java}
+ 1980  time sleep 2
+ 1981  time sleep 2 ; sleep 1
+ 1982  time {sleep 2 ; sleep 1 ;}
+ 1983  time { sleep 2 ; sleep 1 ;}
+ 1984  cd lab0412
+ 1985  cd test || mkdir test
+ 1986  ls
+ 1987  A=999
+ 1988  ( echo $A | echo &A)
+ 1989  ( echo $A | echo &A )
+ 1990  ( echo $A | echo $A )
+ 1991  function fadd() { echo $1 ;}
+ 1992  fadd 100
+ 1993  function fadd() { echo $1 + $2 ;}
+ 1994  fadd 100 200
+ 1995  echo $(( 200 * 127))
+ 1996  function fadd() { echo $(($1 + $2)) ;}
+ 1997  fadd 100 200
+ 1998  exit
+ 1999  echo $?
+ 2000  sleep 500 &
+ 2001  kill -9 $!
+ 2002  jobs
+ 2003  echo to continue [enter] ; read
+ 2004  echo enter your name ; read NAME
+ 2005  echo $NAME
+ 2006  ps | { wc ; ps;}
+ 2007  mkdir lab0417
+ 2008  cd lab0417
+ 2009  vi fadd.sh
+ 2010  source fadd.sh 100 200
+ 2011  cd ..
+ 2012  cd lab0417
+ 2013  vi fadd.sh
+ 2014  source fadd.sh 100 200
+ 2015  fadd 100 200
+ 2016  echo (( `fadd 100 300` ))
+ 2017  echo $(( `fadd 100 300` ))
+ 2018  vi!
+ 2019  vi !
+ 2020  vi fadd.sh 
+ 2021  source fadd.sh 
+ 2022  vi fadd.sh 
+ 2023  source fadd.sh 
+ 2024  vi fadd.sh
+ 2025  source fadd.sh 
+ 2026  vi fadd.sh
+ 2027  source fadd.sh 
+ 2028  vi fadd.sh
+ 2029  source fadd.sh 
+ 2030  100 200
+ 2031  echo 100 300
+ 2032  echo fadd 100 300
+ 2033  fadd 100 200
+ 2034  cd
+ 2035  cd lab0417
+ 2036  history
+ 2037  history | tee hist0417.txt
