@@ -17,4 +17,5 @@ int main() {
 }
 ```
 
-* This is **italic**
+* This is *italic* **bold** ***three***
+* Change Editor
